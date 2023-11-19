@@ -30,3 +30,7 @@ Bonus Features:
 ● Implement a simple user authentication system (signup, login, logout).
 
 ● Allow users to "star" a repository.
+
+## Reference
+
+<img width="960" alt="image" src="https://github.com/baekusboo/github-clone-app/assets/83155556/789be8b9-dd7c-4b66-8e7a-26a0a63ca2ad">
