@@ -11,7 +11,7 @@ function Header() {
             {/* left side links */}
             <div className="d-flex flex-row justify-content-center align-items-center gap-2">
 
-            <div className='p-1 border rounded d-flex flex-row justify-content-center align-items-center' >
+            <div className='p-1 border border-secondary rounded d-flex flex-row align-items-center' >
             <FontAwesomeIcon icon={faBars} color='gray' className='p-1' />                
             </div>
             
@@ -31,15 +31,14 @@ function Header() {
             </div>
 
             {/* right side */}
-            <div className="d-flex flex-row justify-content-center align-items-center gap-2">
+            <div className="d-flex flex-row align-items-center gap-2">
 
             <Form inline className="searchFilter">
-            <InputGroup className="border rounded">
+            <InputGroup className="border border-secondary rounded">
                     <InputGroup.Text className="bg-transparent border-0">
                     <FontAwesomeIcon icon={faMagnifyingGlass} color='gray'/>
                     </InputGroup.Text>
-                    <FormControl type="search" placeholder="Search or jump to..." className="form-control form-control-sm mr-sm-2 text-white bg-transparent border-0" />
-
+                    <FormControl type="search" placeholder="Search or jump to..." className="form-control form-control-sm mr-sm-2 text-white bg-transparent border-0 " />
             </InputGroup>
             </Form>
 
@@ -50,19 +49,20 @@ function Header() {
                     width="32"
                     height="32"
                     className="d-inline-block align-top"
+                    color='gray'
                 />{' '}
                 </div> 
-                <div className='p-1 border rounded d-flex flex-row justify-content-center align-items-center' >
+                <div className='p-1 border border-secondary rounded d-flex flex-row align-items-center' >
                 <FontAwesomeIcon icon={faPlus} color='gray' className='p-1'/>
                 <FontAwesomeIcon icon={faCaretDown} color='gray' className='p-1'/>
                 </div>
-                <div className='p-1 border rounded d-flex flex-row justify-content-center align-items-center' >
+                <div className='p-1 border border-secondary rounded d-flex flex-row align-items-center' >
                 <FontAwesomeIcon icon={faCircleDot} color='gray' className='p-1' />
                 </div>
-                <div className='p-1 border rounded d-flex flex-row justify-content-center align-items-center' >
+                <div className='p-1 border border-secondary rounded d-flex flex-row align-items-center' >
                 <FontAwesomeIcon icon={faCodePullRequest} color='gray' className='p-1' />
                 </div> 
-                <div className='p-1 border rounded d-flex flex-row justify-content-center align-items-center' >
+                <div className='p-1 border border-secondary rounded d-flex flex-row align-items-center' >
                 <FontAwesomeIcon icon={faInbox} color='gray' className='p-1' />
                 </div> 
 

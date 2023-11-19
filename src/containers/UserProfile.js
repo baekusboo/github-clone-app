@@ -4,7 +4,6 @@ import { Navbar as BootstrapNavbar, Container, Nav} from "react-bootstrap";
 import { GoProjectTemplate } from "react-icons/go";
 import { FiBox, FiStar } from "react-icons/fi";
 import Profile from "./Profile"
-import Files from "./Files"
 
 function UserProfile() {
   return (
@@ -35,9 +34,9 @@ function UserProfile() {
         </div>
       </Container>
       </BootstrapNavbar>
-      
+      {/* <hr class="bg-secondary border border-top border-secondary m-0" /> */}
+
       <Profile />
-      <Files />
 
     </div>
   )
