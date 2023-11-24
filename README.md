@@ -25,6 +25,7 @@ Use Cases:
 activity, and user-specific starred repositories.
 
 ● Users should be able to filter repositories by programming language.
+
 Bonus Features:
 
 ● Implement a simple user authentication system (signup, login, logout).
